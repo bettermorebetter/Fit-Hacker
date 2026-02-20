@@ -1,0 +1,11 @@
+name = "fit-hacker"
+compatibility_date = "2024-12-18"
+compatibility_flags = ["nodejs_compat"]
+
+# @opennextjs/cloudflare build output
+main = ".open-next/worker.js"
+assets = { directory = ".open-next/assets", binding = "ASSETS" }
+
+[vars]
+# Set GEMINI_API_KEY in Cloudflare Pages dashboard:
+# Pages > fit-hacker > Settings > Environment Variables
